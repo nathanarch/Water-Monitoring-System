@@ -69,7 +69,7 @@ st.write("<p style='text-align: center;'>Asisten Pintar Penjaga Air Gedung</p>",
 # 🤖 FITUR CHATBOT AI (DI SEBELAH KIRI LAYAR)
 # ==============================================================
 st.sidebar.header("🤖 AI Water Assistant")
-st.sidebar.write("Tanya aku tentang keadaan air atau pintu keran!")
+st.sidebar.write("Tanya aku tentang keadaan atau pemakaian air di gedung!")
 
 if "ingatan_chat" not in st.session_state:
     st.session_state.ingatan_chat = []
