@@ -63,7 +63,7 @@ if 'alarm_toren_kritis_bunyi' not in st.session_state:
 
 st.set_page_config(page_title="Water Monitoring System", layout="wide")
 st.markdown("<h1 style='text-align: center; color: #1E88E5;'>💧 Water Monitoring System 💧</h1>", unsafe_allow_html=True)
-st.write("<p style='text-align: center;'>Asisten Pintar Penjaga Air Gedung</p>", unsafe_allow_html=True)
+st.write("<p style='text-align: center;'>Your Water monitoring Assistant</p>", unsafe_allow_html=True)
 
 # ==============================================================
 # 🤖 FITUR CHATBOT AI (DI SEBELAH KIRI LAYAR)
